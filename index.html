@@ -1,0 +1,95 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FIJADA - Authentification</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        :root {
+            --primary-color: #07479f;
+            --secondary-color: hsl(36, 93%, 52%);
+        }
+        .bg-custom-primary {
+            background-color: var(--primary-color);
+        }
+        .text-custom-primary {
+            color: var(--primary-color);
+        }
+        .text-custom-secondary {
+            color: var(--secondary-color);
+        }
+        .header-title {
+            font-size: 1.2rem;
+            color: var(--primary-color);
+            font-weight: bold;
+        }
+        .main-title {
+            font-size: 2rem;
+            color: var(--primary-color);
+        }
+        .member-name {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: var(--primary-color);
+        }
+    </style>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+        <div class="container">
+            <div class="d-flex align-items-center">
+                <!-- PLACER LE LOGO FIJADA ICI - Dimensions recommandées: 60px de hauteur -->
+                <img src="logo_fijada.png" alt="FIJADA Logo" height="60">
+                <span class="ms-3 header-title">FIJADA</span>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container mt-4">
+        <div class="text-center mb-4">
+            <p class="text-custom-primary">Forum international de la jeunesse africaine sur le développement de l'Afrique</p>
+        </div>
+
+        <div class="row">
+            <div class="col-md-8 offset-md-2">
+                <div class="card shadow">
+                    <div class="card-header bg-custom-primary text-white">
+                        <h3 class="text-center mb-0">Membre authentifié</h3>
+                    </div>
+                    <div class="card-body">
+                        <div class="text-center mb-4">
+                            <div class="mb-3">
+                                <!-- PLACER LA PHOTO DE L'AGENT ICI - Dimensions recommandées: max-width 200px -->
+                                <img src="MASUTA.jpg" alt="Photo de l'agent" class="img-fluid rounded" style="max-width: 200px;">
+                            </div>
+                            
+                            <div class="member-info">
+                                <h2 class="member-name">LUMEYA MASUTA Jonathan</h2>
+                                <p class="text-custom-primary mb-2">Coordonnateur</p>
+                                <p class="mb-2">De nationalité congolaise, né le 27/08/2000</p>
+                                <p class="mb-2">en RDC, sexe : M</p>
+                                <p class="mb-2">Contact : 0820108585</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container text-center">
+        <p><h7>Together it is Possible</h7></p>
+    </div>
+
+    <footer class="fixed-bottom bg-light py-3">
+        <div class="container text-center">
+            <a href="https://upward-cdn.pages.dev/" class="text-decoration-none" style="font-size: 0.8rem;">
+                Développé et propulsé par <span class="text-custom-secondary fw-bold" style="font-family: 'Segoe UI', Arial, sans-serif">UpWard Dev Team</span>
+            </a>
+        </div>
+    </footer>
+</body>
+</html>
